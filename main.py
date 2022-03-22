@@ -1,4 +1,5 @@
 import random
+import time
 
 from termcolor import cprint
 
@@ -111,4 +112,6 @@ while player.get_num_captured_pokes() < 4 and player.number_of_pokemons_alive() 
             
             
     interact_with_map(map.map, player, current_coordinates, lista_pokemons)
+    
+    time.sleep(2)
         
